@@ -1,0 +1,27 @@
+{
+    "name": "sheel/map-create",
+    "version": "0.1.0",
+    "description": "Creates and returns static maps with a given route on a given format",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Sheel Shah",
+            "email": "sheel@example.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GrandVisual\\Map\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GrandVisual\\Map\\": "packages/Sheel/map-create/src"
+        }
+    },
+    "require": {
+        "ext-json": "*"
+    }
+}
